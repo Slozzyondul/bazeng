@@ -1,0 +1,36 @@
+Scraping codes
+
+#finding the element by ID
+soup.find(id="specific_id")
+
+# Find an element by the class name
+soup.find('tag', class_="class_name")
+
+For instance:
+<article class="main-article">
+<h1> Titanic (1997) </h1>
+<p class="plot"> 84 years later....</p>
+<div class="full-script"> 13 meters. You...</div>
+</article>
+
+#locating the article element by class
+soup.find('article', class_="main_article")
+
+#finding h1 element
+soup.find('h1')
+
+#finding multiple elements
+soup.find_all("h2")
+
+#Recommended order of finding elements in HTML code
+1. ID
+2. Class name
+3. Tag name, CSS selector
+4. Xpath
+
+# Exporting data in a text file with the "title" name
+with open(f'{title}.txt', 'w') as file:
+  file.write(transcript)
+  
+  
+

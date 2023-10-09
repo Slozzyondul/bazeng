@@ -1,0 +1,20 @@
+/snap/bin/snap-store
+sudo systemctl start bluetooth
+
+
+ls= list
+pwd= print working directory/full path of working directory
+cd=change directory
+mkdir=make directoyy
+rmdir=remove directory
+touch= create new file/ time stamp 
+cp= copy
+mv= move
+rm=remove
+cat= reads the file/content
+wget=download data
+man= manual
+history= log info
+diff= length
+alias= repetitive comands, create an elias to automate 
+
