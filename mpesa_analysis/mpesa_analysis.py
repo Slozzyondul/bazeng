@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the Excel file
-file_path = "/home/solo/Desktop/converts/mattanalysis.xlsx"  # Adjust the path as needed
+file_path = "/home/solo/Desktop/converts/mattanalysis.xlsx"  
 data = pd.read_excel(file_path, sheet_name=0)
 
 # Inspect the data
